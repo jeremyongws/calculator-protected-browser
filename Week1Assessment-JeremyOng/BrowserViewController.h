@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BrowserViewController.h
 //  Week1Assessment-JeremyOng
 //
 //  Created by Jeremy Ong on 01/04/2016.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BrowserViewController : UIViewController
 
 @end
-
