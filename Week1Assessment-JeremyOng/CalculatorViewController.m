@@ -46,11 +46,6 @@
 	}
 }
 
-//- (IBAction)onNextButtonPressed:(id)sender {
-//	[self performSegueWithIdentifier:@"goToBrowser" sender:self];
-//}
-
-
 - (NSString*)calculate:(NSString*)firstNumber withOperator:(NSString*)operator secondNumber:(NSString*)secondNumber {
 	if ([operator isEqualToString:@"+"]){
 		NSInteger intResult = [firstNumber integerValue] + [secondNumber integerValue];
